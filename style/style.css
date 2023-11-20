@@ -8,9 +8,8 @@ a{
 }
 
 body{
-    height: 4000px;
     margin: 0;
-    padding: 0 3rem;
+    padding: 0 3rem 2rem 3rem;
     background-color: #f2f2f2;  
     
 }
@@ -247,7 +246,7 @@ section#section-testimonials div#testimonial div#rigth-side div.slideshow-contai
 }
 
 section#section-contact{
-    padding: 4rem 0;
+    padding: 4rem 0 8rem 0;
     margin-top: 17rem;
     text-align: center;
 }
@@ -310,4 +309,14 @@ section#section-contact div#contact-content div#right-side form input#submit-btn
 section#section-contact div#contact-content div#right-side form input#submit-btn:hover{
     background-color: #6c7bb4;
     scale: 1.1;
+}
+
+footer{
+    padding: 2rem 0;
+    background-color: #ffffff;
+    border-radius: 15px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
 }
