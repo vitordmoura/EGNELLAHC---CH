@@ -23,5 +23,27 @@ function showSlides() {
   dots[slideIndex-1].className += " active";
   setTimeout(showSlides, 5000); // Change image every 2 seconds
 }
+function validateName() {
+  if (nameInput.value.length < 3) {
+      nameInput.classList.add('error');
+      errorText.innerHTML = 'O nome precisa ter no mínimo 3 caracteres';
+  } else {
+      nameInput.classList.remove('error');
+      errorText.innerHTML = ' ';
+  }
+}
+
+function validateEmail() {
+  const emailRegex = /^[^\s@]+@[^\s@]+\.[^\s@]+$/;
+
+  if (!emailRegex.test(emailInput.value)) {
+      emailInput.classList.add('error');
+      errorText.innerHTML = 'O Email precisa ser válido';
+
+  } else {
+      emailInput.classList.remove('error');
+      errorText.innerHTML = ' ';
+  }
+}
 
 
