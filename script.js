@@ -1,4 +1,10 @@
 let slideIndex = 0;
+const nameInput = document.querySelector('#name');
+const emailInput = document.querySelector('#email');
+const errorText = document.querySelector('#error-text');
+
+nameInput.addEventListener('input', validateName);
+emailInput.addEventListener('input', validateEmail);
 showSlides();
 
 function showSlides() {
@@ -17,3 +23,5 @@ function showSlides() {
   dots[slideIndex-1].className += " active";
   setTimeout(showSlides, 5000); // Change image every 2 seconds
 }
+
+
