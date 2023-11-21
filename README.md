@@ -1,4 +1,4 @@
-# EGNELLAHC---CH
+# Challenge - HC - ICR
 
 FIAP (Faculdade de Informática e Administração /Paulista) and HC (Hospital das Clínicas) 
 joined in the challenge of improving the care experience within the hospital, both for companions and patients.
