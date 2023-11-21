@@ -337,3 +337,46 @@ footer{
     align-items: center;
     text-align: center;
 }
+
+
+footer a {
+    color: #606B99;
+    cursor: pointer;
+    margin: 0 10px;
+    transition: 450ms ease-in-out;
+    word-break: break-all;
+    text-decoration: underline #606B99;
+}
+
+footer a:hover {
+    color: grey
+}
+
+footer nav#footer-content {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    width: 100%;
+    
+}
+
+footer section.footer-info {
+    width: 100%;
+    display: flex;
+    justify-content: space-evenly;
+}
+
+footer section.footer-info div.sub-section-footer {
+    width: 30%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+footer .sub-section-footer span{
+    text-decoration: underline #606B99;
+}
+
+footer .contact-section-footer a{
+    text-decoration: none;
+}
