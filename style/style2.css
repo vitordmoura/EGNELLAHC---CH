@@ -61,6 +61,30 @@ a{
     
 }
 
+.pitch-info{
+    display: flex;
+    justify-content: center;
+    gap: 1rem;
+    text-align: justify;
+    flex-direction: column
+}
+
+.pitch-video h2{
+    text-align: center;
+}
+
+.pitch-info h2{
+    text-align: center;
+}
+
+.pitch-img img{
+    width: 20rem;
+}
+
+section.trd-sec{
+    gap: 5rem;
+}
+
 footer div.footer-img {
     width: 100%;
     display: flex;
