@@ -26,6 +26,9 @@ a {
     color: white;
 }
 
+header{
+    background-image: linear-gradient(#333333, #000000);
+}
 
 .base-sec {
     display: flex;
@@ -112,6 +115,10 @@ a {
 
 section.trd-sec {
     gap: 5rem;
+}
+
+footer{
+    background-image: linear-gradient(#000000, #000000,#333333);
 }
 
 footer div.footer-img {
